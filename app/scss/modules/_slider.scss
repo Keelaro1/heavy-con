@@ -28,6 +28,8 @@
   align-items: flex-end;
   position: relative;
   bottom: 520px;
+  right: 20px;
+  
 
   list-style-type: none;
 
@@ -36,13 +38,15 @@
   }
 
   button {
+    cursor: pointer;
+    outline: none;
     width: 15px;
     height: 15px;
     padding: 3px;
     border: 2px solid $primary-slider-color;
     border-radius: 100%;
     background-color: $primary-slider-color;
-    text-indent: -9999px;
+    font-size: 0;
   }
 
   li.slick-active button {

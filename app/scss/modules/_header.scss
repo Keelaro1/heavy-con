@@ -38,6 +38,7 @@
 }
 
 .menu {
+  margin-right: 125px;
   z-index: 4;
   a:hover {
     color: $primary-second;
@@ -82,6 +83,7 @@
   }
 
   .menu__dropdown {
+    margin-top: 15px;
     a {
       color: $primary-color;
     }
