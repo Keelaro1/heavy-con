@@ -5,8 +5,11 @@
 @import "media";
 
 @import "modules/header";
+@import "modules/slider";
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
