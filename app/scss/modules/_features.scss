@@ -3,7 +3,7 @@
   margin-bottom: 90px;
 }
 .features__inner {
-  background-image: url('../../img/features-bg.jpg');
+  background-image: url('../img/features-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -22,19 +22,19 @@
   border-radius: 100%;
   border: 3px solid #595542;
   margin: 0 auto;
-  background-image: url('../../img/features-helmet.png');
+  background-image: url('../img/features-helmet.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .features__item-bulb {
-  background-image: url('../../img/features-bulb.png');
+  background-image: url('../img/features-bulb.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.features__item-loader {
-  background-image: url('../../img/features-loader.png');
+.loader {
+  background-image: url('../img/features-loader.png');
   background-repeat: no-repeat;
   background-position: center;
 }
