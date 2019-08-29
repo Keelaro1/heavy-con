@@ -1,0 +1,52 @@
+.features {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.features__inner {
+  background-image: url('../../img/features-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.features__inner-content {
+  min-height: 235px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.features__item-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  border: 3px solid #595542;
+  margin: 0 auto;
+  background-image: url('../../img/features-helmet.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features__item-bulb {
+  background-image: url('../../img/features-bulb.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features__item-loader {
+  background-image: url('../../img/features-loader.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features__item-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #595542;
+  text-transform: uppercase;
+  max-width: 220px;
+  text-align: center;
+  margin-top: 20px;
+}
+
