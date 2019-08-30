@@ -8,4 +8,9 @@ $(function() {
     fade: true,
     fadeSpeed: 5000
   });
+
+  $(function() {
+    $(".gallery__items").lightGallery();
+    thumbnail:true
+  });
 });

@@ -4,11 +4,12 @@
 
 @import "media";
 
-@import "modules/header";
-@import "modules/slider";
-@import "modules/description";
-@import "modules/features";
-@import "modules/about";
+@import "blocks/header";
+@import "blocks/slider";
+@import "blocks/description";
+@import "blocks/features";
+@import "blocks/about";
+@import "blocks/gallery";
 
 *,
 *::after,
