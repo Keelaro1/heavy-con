@@ -1,0 +1,108 @@
+.contact {
+  margin-top: 40px;
+}
+
+.contact__inner {
+  min-height: 700px;
+  background-image: url("../img/contact-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.contact__content {
+  padding-left: 40px;
+  height: 500px;
+  max-width: 570px;
+  background-image: url("../img/contact-img.jpg");
+  background-color: $primary-second;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact__title {
+  font-size: 32px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-top: 60px;
+  color: $primary-color;
+  padding-left: 125px;
+  position: relative;
+}
+
+.contact__title:before {
+  content: "";
+  background-color: $primary-color;
+  border-radius: 100%;
+  background-image: url("../img/contact-engineer.png");
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  background-position: center;
+  left: 0;
+  top: 35px;
+  position: absolute;
+}
+
+.contact__divider {
+  width: 200px;
+  height: 3px;
+  background-color: $primary-color;
+  margin-top: 25px;
+  margin-bottom: 65px;
+  margin-left: 125px;
+}
+
+.contact__phone,
+.contact__address,
+.contact__email {
+  color: $primary-color;
+  line-height: 32px;
+  font-size: 26px;
+  padding-left: 125px;
+  position: relative;
+}
+
+.contact__phone,
+.contact__address {
+  margin-bottom: 50px;
+}
+.contact__phone,
+.contact__email {
+  a {
+    color: $primary-color;
+    border-bottom: 2px solid transparent;
+  }
+  a:hover {
+    transition: 0.2s;
+    border-bottom: 2px solid $primary-color;
+  }
+}
+
+.contact__phone:before,
+.contact__address:before,
+.contact__email:before {
+  content: "";
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  background-position: center;
+  position: absolute;
+  left: 25px;
+}
+
+.contact__phone:before {
+  background-image: url("../img/contact-phone.png");
+  top: -5px;
+}
+
+.contact__address:before {
+  background-image: url("../img/contact-location.png");
+}
+
+.contact__email:before {
+  background-image: url("../img/contact-email.png");
+  top: -3px;
+}
