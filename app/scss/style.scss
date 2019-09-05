@@ -49,3 +49,39 @@ li {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/*Gallery modal window*/
+#modal {
+  display: none;
+}
+
+#modal img {
+  padding-right: 50px;
+}
+
+#back-to-top {
+  display: none;
+  transition: 0.3s;
+  background-color: $primary-second-color;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 2px solid transparent;
+  color: white;
+}
+
+#back-to-top-btn {
+  color: $primary-color;
+}
+
+#back-to-top:hover {
+  border: 2px solid black;
+}

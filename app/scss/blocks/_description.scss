@@ -25,13 +25,13 @@
   content: "";
   height: 90px;
   width: 90px;
-  background-color: $primary-second;
+  background-color: $primary-second-color;
   border-radius: 100%;
   position: absolute;
 }
 
 .description__services::before {
-  background-image: url("../../img/description-tools.png");
+  background-image: url("../img/description-tools.png");
   background-repeat: no-repeat;
   background-position: center;
   left: 0;
@@ -39,7 +39,7 @@
 }
 
 .description__courses::after {
-  background-image: url("../../img/description-pencil.png");
+  background-image: url("../img/description-pencil.png");
   background-repeat: no-repeat;
   background-position: center;
   top: 0;
@@ -57,7 +57,7 @@
 .description__item-divider {
   height: 3px;
   width: 200px;
-  background-color: $primary-second;
+  background-color: $primary-second-color;
 }
 
 .description__item-text {

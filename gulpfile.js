@@ -38,7 +38,7 @@ gulp.task("js", function() {
     .src([
       "node_modules/slick-carousel/slick/slick.js",
       "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
-      "node_modules/lightgallery/dist/js/lightgallery.min.js"
+      "node_modules/lightgallery/dist/js/lightgallery.min.js",
     ])
     .pipe(concat("libs.min.js"))
     .pipe(uglify())

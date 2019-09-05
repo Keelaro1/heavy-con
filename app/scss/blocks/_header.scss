@@ -22,14 +22,14 @@
   cursor: pointer;
 
   a:hover {
-    color: $primary-second;
+    color: $primary-second-color;
     transition: 0.3s;
   }
 }
 
 .header__logo:before {
   content: "";
-  background-image: url("../../img/logo-img.png");
+  background-image: url("../img/logo-img.png");
   height: 40px;
   width: 65px;
   position: absolute;
@@ -40,8 +40,9 @@
 .menu {
   margin-right: 125px;
   z-index: 4;
+  position: relative;
   a:hover {
-    color: $primary-second;
+    color: $primary-second-color;
     transition: 0.3s;
   }
   li {
@@ -55,12 +56,13 @@
       visibility: hidden;
       transition: all .3s ease-in;
       position: absolute;
-      background-color: $primary-second;
+      background-color: $primary-second-color;
+      
       li {
         display: block;
       }
       a {
-        padding: 5px 60px 5px 20px;
+        padding: 5px 20px 5px 20px;
       }
       a:first-child {
         padding-top: 25px;
@@ -83,12 +85,15 @@
   }
 
   .menu__dropdown {
-    margin-top: 15px;
+    margin-top: 25px;
+    position: absolute;
+    left: 0;
     a {
       color: $primary-color;
     }
+    
     li:hover {
-      background-color: #ffd300;
+      background-color: $hover-color;
     }
   }
 }
@@ -101,7 +106,7 @@
   text-transform: uppercase;
 
   a:hover {
-    color: #f4d235;
+    color: $primary-second-color;
     transition: 0.3s;
   }
 }

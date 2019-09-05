@@ -11,6 +11,20 @@ $(function() {
 
   $(function() {
     $(".gallery__items").lightGallery();
-    thumbnail:true
+    thumbnail: true;
   });
 });
+
+
+var scrollUp = document.getElementById("back-to-top");
+window.onscroll = function() {
+  if (window.pageYOffset >= 400) {
+    scrollUp.style.display = "block";
+  } else {
+    scrollUp.style.display = "none";
+  }
+};
+
+scrollUp.onclick = function() {
+  window.scrollTo(0, 0);
+};

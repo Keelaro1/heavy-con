@@ -25,7 +25,7 @@
 
 .gallery__content::after {
   content: "";
-  background-color: $primary-second;
+  background-color: $primary-second-color;
   border-radius: 100%;
   background-image: url("../img/gallery-img.png");
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 .gallery__content-divider {
   height: 3px;
   width: 200px;
-  background-color: $primary-second;
+  background-color: $primary-second-color;
   margin-bottom: 15px;
 }
 
@@ -67,7 +67,7 @@
 
 .gallery__items a:hover {
   transition: 0.3s;
-  border: 4px solid $primary-second;
+  border: 4px solid $primary-second-color;
 }
 
 .gallery__content-btn a {
@@ -77,9 +77,14 @@
   text-transform: uppercase;
   width: 225px;
   height: 60px;
-  background-color: $primary-second;
+  background-color: $primary-second-color;
   text-align: center;
   font-weight: 700;
   font-size: 18px;
   line-height: 60px;
+}
+
+.gallery__content-btn a:hover {
+  transition: 0.3s;
+  background-color: #ffd300;
 }

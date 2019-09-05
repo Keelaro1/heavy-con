@@ -1,3 +1,4 @@
+
 .footer__inner {
   background-color: $primary-color;
   min-height: 80px;
@@ -12,13 +13,13 @@
   line-height: 32px;
   font-size: 16px;
   span {
-    color: $primary-second;
+    color: $primary-second-color;
     border-bottom: 2px solid transparent;
     cursor: pointer;
   }
   span:hover {
     transition: 0.3s;
-    border-bottom: 2px solid $primary-second;
+    border-bottom: 2px solid $primary-second-color;
   }
 }
 
