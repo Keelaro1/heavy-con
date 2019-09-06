@@ -20,7 +20,7 @@ gulp.task("scss", function() {
         browsers: ["last 10 versions"]
       })
     )
-    .pipe(rename({ suffix: ".min" })) 
+    .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest("app/css"))
     .pipe(browserSync.reload({ stream: true }));
 });
@@ -38,7 +38,7 @@ gulp.task("js", function() {
     .src([
       "node_modules/slick-carousel/slick/slick.js",
       "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
-      "node_modules/lightgallery/dist/js/lightgallery.min.js",
+      "node_modules/lightgallery/dist/js/lightgallery.min.js"
     ])
     .pipe(concat("libs.min.js"))
     .pipe(uglify())

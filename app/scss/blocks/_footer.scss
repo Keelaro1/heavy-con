@@ -1,11 +1,10 @@
-
 .footer__inner {
   background-color: $primary-color;
   min-height: 80px;
 }
 
 .footer__content {
-  min-height: 80px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -22,8 +21,4 @@
     border-bottom: 2px solid $primary-second-color;
   }
 }
-
-
-
-
 
