@@ -1,0 +1,218 @@
+@media (max-width: 1650px) {
+  .slider__inner .slick-dots {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1270px) {
+  .header__content .menu {
+    margin: 0px;
+  }
+
+  .slider__inner .slick-track .slick-slide {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1140px) {
+  .header__content .header__logo {
+    font-size: 24px;
+  }
+
+  .header__content .header__language {
+    font-size: 16px;
+  }
+  .gallery__content .gallery__items a:last-child {
+    display: none;
+  }
+
+  .gallery__content .gallery__items {
+    justify-content: center;
+  }
+  .gallery__content .gallery__items a:first-child {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header .header__content {
+    flex-direction: column;
+  }
+
+  .header__content .menu {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .slider__item .slider__item-title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .slider__item .slider__item-divider {
+    display: none;
+  }
+
+  .slider__item .slider__item-text {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .contact__inner {
+    display: flex;
+  }
+
+  #modal img {
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 880px) {
+  .description .description__item,
+  .about .about__content,
+  .gallery .gallery__content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .description__item .description__item-divider,
+  .about .about__content-divider,
+  .gallery .gallery__content-divider {
+    display: none;
+  }
+
+  .description__services::before,
+  .description__courses::after,
+  .about__content::before,
+  .gallery__content::after {
+    display: none;
+  }
+  .gallery__content .gallery__items {
+    display: none;
+  }
+  .gallery,
+  .gallery__content-btn {
+    margin-top: 50px;
+  }
+  #back-to-top {
+    display: none !important;
+  }
+}
+
+@media (max-width: 720px) {
+  
+  .menu__dropdown {
+    
+    margin-top: -15px !important;
+    background-color: $hover-color !important;
+    a {
+      padding-left: 10px !important;
+      font-size: 14px;
+    }
+  }
+
+  .header__content .menu {
+    text-align: center;
+    background-color: $primary-second-color;
+    width: 100%;
+
+    li {
+      display: block;
+      padding-top: 15px;
+      padding-right: 0px !important;
+    }
+    li:last-child {
+      padding-bottom: 15px;
+    }
+    a:hover {
+      color: $primary-color;
+    }
+  }
+
+  .slider__item .slider__item-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .slider__item .slider__item-text {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .features__inner {
+    background-image: none !important;
+  }
+
+  .features__item {
+    margin-top: 30px;
+  }
+
+  .features__item-img {
+    background-color: $primary-second-color;
+  }
+
+  .features__inner-content {
+    margin-top: 200px;
+    flex-direction: column;
+  }
+  .features__item .features__item-text {
+    font-size: 18px;
+  }
+
+  .about {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact__content .contact__title {
+    margin-bottom: 50px;
+  }
+
+  .contact__content .contact__title,
+  .contact__content .contact__text {
+    padding-left: 0;
+  }
+
+  .contact__content .contact__divider {
+    display: none;
+  }
+
+  .contact__title:before,
+  .contact__phone:before,
+  .contact__address:before,
+  .contact__email:before {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .description__item .description__item-title,
+  .about__content .about__content-title,
+  .gallery__content .gallery__content-title,
+  .contact__content .contact__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .description__item .description__item-text,
+  .about__content .about__content-text,
+  .contact__content .contact__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  #modal img {
+    max-width: 280px;
+  }
+}
