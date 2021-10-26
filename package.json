@@ -18,7 +18,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "lightgallery": "^1.6.12",
     "magnific-popup": "^1.1.0",
     "normalize.css": "^8.0.1",
